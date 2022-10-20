@@ -32,11 +32,7 @@ void printPokemon(Pokemon pokemon) {
 
 void calculateCombatPower(Pokemon array[], int size) {
     for (int i = 0; i < size; i++) {
-        if (strcmp(array[i].name, "Ivysaur") == 0) {
-            array[i].cp = 61.200000;
-        } else {
-            array[i].cp = (0.3 * array[i].attack) + (0.2 * array[i].defense) + (0.4 * array[i].hp) + (0.1 * array[i].speed);
-        }
+        array[i].cp = (0.3 * array[i].attack) + (0.2 * array[i].defense) + (0.4 * array[i].hp) + (0.1 * array[i].speed);
     }
 }
 
