@@ -28,7 +28,6 @@ int main() {
     Pokemon pokemonArray[100];
     int numPokemon = readPokemonData(filename, pokemonArray);
 
-
     // Calculate the CP of all Pokemon using your calculateCombatPower function
     calculateCombatPower(pokemonArray, numPokemon);
 
